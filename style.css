@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+body{
+  padding: 0 0;
+  margin: 0 0;
+  background-color: #FDE68A;
+  font-family: "Open Sans", sans-serif;
+}
+
+section{
+  margin: 4em auto;
+}
+
+.center-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top{
+  margin: 0.5em auto;
+  padding: 1.5em 0;
+  background-color: #F59E0B;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+#header-title{
+  display: inline;
+  font-size: 2rem;
+}
+
+#imgheader {
+  max-height: 50px;
+}
+
+#inputtext {
+  margin: 0 auto 1em auto;
+}
+
+button {
+  padding: 0.5em 2em;
+  background-color: #FBBF24;
+  border-radius: 1em;
+}
+
+#outputtext{
+  margin: 4em auto;
+}
+
+.textplace{
+  width: 300px;
+  height: 100px;
+  margin: 1.5em auto;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.link-primary {
+  background-color: #1f2937;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.footer {
+  margin-top: 2em;
+  background-color: #1f2937;
+  padding: 2rem 1rem;
+  color: white;
+  text-align: center;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
